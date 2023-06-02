@@ -1,12 +1,13 @@
 body {
-    background-image: url("img/transferir.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 1200px;
-    margin: 1 auto;
-  }
+  background-image: url("IMG/hop.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh; /* Defina a altura do elemento body para ocupar toda a altura da janela */
+}
 
 
 
@@ -19,7 +20,7 @@ body {
   
   .login-container > div {
     display: inline-block;
-    width: 30%; /* Ajuste a largura conforme necessário */
+    width: 40%; /* Ajuste a largura conforme necessário */
     vertical-align: top; /* Alinha as divs ao topo */
     box-sizing: border-box; /* Considera as bordas e o padding no cálculo da largura */
     padding: 15px;
